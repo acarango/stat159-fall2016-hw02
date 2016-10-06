@@ -3,7 +3,7 @@
 all:
 
 data:
-	curl http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv >> ~./data/Advertising.csv
+	curl http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv >> ./data/Advertising.csv
 
 clean:
-        cd report; rm -f report.pdf 
+	cd report; rm -f report.pdf 
