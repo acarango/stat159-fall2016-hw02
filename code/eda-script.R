@@ -1,5 +1,5 @@
 library(DataComputing)
-advertising = read.csv("~/stat159-fall2016-hw02/data/Advertising.csv")
+advertising = read.csv("../data/Advertising.csv")
 
 
 sink("../data/eda-output.txt")
